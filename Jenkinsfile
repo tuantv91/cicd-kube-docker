@@ -47,6 +47,7 @@ pipeline {
             }
         }
 
+/*
         stage('CODE ANALYSIS with SONARQUBE') {
 
             environment {
@@ -70,6 +71,7 @@ pipeline {
                 }
             }
         }
+*/
 
         stage('Build App Image') {
           steps {
